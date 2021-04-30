@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFEDC"
+    tools:context=".BarrymaxFragment">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/barrymax"
+        android:textSize="20sp"
+        android:rotation="45"
+        android:layout_marginTop="20dp"
+        android:textColor="#1D1797"
+        android:layout_alignParentStart="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/abagna"
+        android:textSize="20sp"
+        android:rotation="-45"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#FE342D"
+        />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/linear"
+        />
+    <!--6:59 pm-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Send list to shared pref barrymax"
+        android:id="@+id/btnAddList"
+        />
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+</RelativeLayout>

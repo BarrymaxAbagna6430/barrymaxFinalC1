@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BarrymaxFinalC1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="barrymax">Barrymax</string>
+    <string name="abagna">Abagna</string>
+    <string name="send_sms">send SMS</string>
+    <string-array name="courses">
+        <item>Database with Java</item>
+        <item>internet programming</item>
+        <item>Mobile programming</item>
+        <item>Networking Technology</item>
+        <item>Object oriented program II JAVA</item>
+        <item>Unix internals</item>
+    </string-array>
+</resources>
