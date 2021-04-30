@@ -5,6 +5,7 @@
     <string name="barrymax">Barrymax</string>
     <string name="abagna">Abagna</string>
     <string name="send_sms">send SMS</string>
+    <!--// 7:30 pm-->
     <string-array name="courses">
         <item>Database with Java</item>
         <item>internet programming</item>

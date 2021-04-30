@@ -17,7 +17,7 @@ public class BarrymaxMyAdapter extends FragmentPagerAdapter {
         myContext = context;
         this.totalTabs = totalTabs;
     }
-
+// 6:29 pm
     @Override
     public Fragment getItem(int position) {
         switch (position) {

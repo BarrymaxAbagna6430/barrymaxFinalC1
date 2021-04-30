@@ -68,7 +68,7 @@ public class BarrymaxMainActivity extends AppCompatActivity {
 
             }
         });
-        setData(getApplicationContext());
+       // setData(getApplicationContext());
     }
     // 7:50 pm
    public static void setData(Context context)
@@ -85,13 +85,18 @@ public class BarrymaxMainActivity extends AppCompatActivity {
     public static  List<String> getData(Context context)
     {
         sharedPreferences = context.getSharedPreferences("course",MODE_PRIVATE);
-        Gson gson = new Gson();
-        List<String> list;
+        if (sharedPreferences!=null)
+        {
+            Gson gson = new Gson();
+            List<String> list;
 
-        String string = sharedPreferences.getString("courses", "nothing to show");
-        Type type = new TypeToken<List<String>>() {
-        }.getType();
-        list = gson.fromJson(string, type);
-        return list;
+            String string = sharedPreferences.getString("courses", "nothing to show");
+            Type type = new TypeToken<List<String>>() {
+            }.getType();
+            list = gson.fromJson(string, type);
+            return list;
+        }
+
+        return null;
     }
 }

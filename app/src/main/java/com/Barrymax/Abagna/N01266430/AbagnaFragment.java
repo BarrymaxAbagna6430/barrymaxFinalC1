@@ -30,6 +30,7 @@ public class AbagnaFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        // 7:40 pm
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_abagna, container, false);
         Dexter.withContext(getActivity())
